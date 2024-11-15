@@ -1,15 +1,16 @@
-<<<<<<< HEAD
+# Ambiente e variáveis de ambiente
 .env
-=======
-# Byte-compiled / optimized / DLL files
+*.env
+
+# Python byte-compiled / otimizados / DLLs
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
+# Extensões C
 *.so
 
-# Distribution / packaging
+# Distribuição / empacotamento
 .Python
 build/
 develop-eggs/
@@ -29,15 +30,11 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
+# Logs de instalação
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Relatórios de teste / cobertura
 htmlcov/
 .tox/
 .nox/
@@ -50,58 +47,29 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
-__pycache__/
 cover/
 
-# Translations
+# Traduções
 *.mo
 *.pot
 
-# Django stuff
+# Arquivos específicos do Django
 *.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
-# Flask stuff
+# Cache e arquivos temporários de outros frameworks
 instance/
 .webassets-cache
-
-# Scrapy stuff
 .scrapy
-
-# Sphinx documentation
 docs/_build/
-
-# PyBuilder
 target/
-
-# Jupyter Notebook
 .ipynb_checkpoints
-
-# IPython
 profile_default/
 ipython_config.py
 
-# pyenv
-.python-version
-
-# pipenv
-Pipfile.lock
-
-# PEP 582
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-*.env
+# Configurações de ambientes virtuais
 .venv
 env/
 venv/
@@ -109,34 +77,23 @@ ENV/
 env.bak/
 venv.bak/
 
-# Spyder project settings
+# Arquivos específicos do Spyder, Rope, mypy, pyre, pytype
 .spyderproject
 .spyderworkspace
-
-# Rope project settings
 .ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
-# Pyre type checker
 .pyre/
-
-# pytype static type analyzer
 .pytype/
 
-# Cython debug symbols
+# Depuração Cython
 cython_debug/
 
-# Editor settings
+# Configurações do editor
 .vscode/
 
-# OS-generated files
+# Arquivos gerados pelo sistema operacional
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -144,12 +101,14 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# Temporary files
+# Arquivos temporários
 *.tmp
 *.bak
 
-# Frontend (if applicable)
+# Frontend (se aplicável)
 node_modules/
 dist/
+
+# Arquivos específicos de amostra e de tradução
 sample_translated.docx
->>>>>>> recover-branch
+modules/__pycache__/__init__.cpython-313.pyc
