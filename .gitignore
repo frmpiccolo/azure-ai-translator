@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+.env
+=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -47,6 +50,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+__pycache__/
 cover/
 
 # Translations
@@ -148,3 +152,4 @@ Desktop.ini
 node_modules/
 dist/
 sample_translated.docx
+>>>>>>> recover-branch
