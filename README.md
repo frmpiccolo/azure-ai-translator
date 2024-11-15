@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project demonstrates the use of Azure OpenAI services in a Python application. The `translator.py` script translates text using Azure's Cognitive Services, specifically leveraging the GPT model.
+This project demonstrates the use of Azure OpenAI services in a Python application. The `translator_module.py` translates text using Azure's Cognitive Services, specifically leveraging the GPT model.
 
 ---
 
@@ -102,7 +102,7 @@ This project demonstrates the integration of Azure OpenAI services into a Python
 
 1. **Run the Script**:
     ```bash
-    python translator.py
+    python main.py
     ```
 
 2. **Input Text**:
