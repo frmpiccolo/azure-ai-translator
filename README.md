@@ -10,6 +10,17 @@ This project demonstrates the use of Azure OpenAI services in a Python applicati
 
 ---
 
+## Information
+
+The program performs the following tasks:
+
+1. **Extracts Content from a Web Page**: Given a URL, the script fetches the page content and extracts all paragraphs.
+2. **Translates Extracted Paragraphs**: Each paragraph obtained from the web page is translated to the target language specified by the user.
+3. **Translates Microsoft Word Files**: The script can also translate a Microsoft Word (.docx) file to the target language.
+
+This project demonstrates the integration of Azure OpenAI services into a Python application for web content extraction, document translation, and text processing.
+
+
 ## Environment Setup
 
 1. **Install Python**: Ensure you have Python 3.6 or higher installed. You can download it from [python.org](https://www.python.org/).
@@ -31,11 +42,7 @@ This project demonstrates the use of Azure OpenAI services in a Python applicati
 
 4. **Install Required Packages**:
     ```bash
-    pip install os-sys
-    pip install requests
-    pip install beautifulsoup4
-    pip install python-docx
-    pip install python-dotenv
+    pip install os-sys requests beautifulsoup4 python-docx python-dotenv
     ```
 
 ## Azure Setup
@@ -72,6 +79,7 @@ This project demonstrates the use of Azure OpenAI services in a Python applicati
 1. Go to the **Keys and Endpoint** section of your Azure OpenAI service.
 2. Copy the **Endpoint URL** and **Key**.
 
+
 ## Project Setup
 
 1. **Clone the Repository**:
@@ -101,15 +109,31 @@ This project demonstrates the use of Azure OpenAI services in a Python applicati
     - The program will prompt you to enter the text you want to translate.
     - Enter the text, and the script will send it to the Azure OpenAI service for translation.
 
-## Program Information
+---
 
-The `translator.py` script performs the following tasks:
+## Running Tests
 
-1. **Extracts Content from a Web Page**: Given a URL, the script fetches the page content and extracts all paragraphs.
-2. **Translates Extracted Paragraphs**: Each paragraph obtained from the web page is translated to the target language specified by the user.
-3. **Translates Microsoft Word Files**: The script can also translate a Microsoft Word (.docx) file to the target language.
+To run the tests for this project, follow the steps below:
 
-This project demonstrates the integration of Azure OpenAI services into a Python application for web content extraction, document translation, and text processing.
+1. **Install Test Dependencies**:
+    Make sure the virtual environment is activated, then install `unittest` (which comes built-in with Python) and any other necessary testing packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. **Test Setup**:
+    Your tests are located in the `tests` folder, specifically in `tests/test_translator_module.py`. Make sure you have the appropriate environment variables configured in your `.env` file, as the tests will require access to Azure services.
+
+3. **Run the Tests**:
+    You can run the tests using the `unittest` command:
+    ```bash
+    python -m unittest discover tests/
+    ```
+
+    Alternatively, you can run the specific test file directly:
+    ```bash
+    python -m unittest tests.test_translator_module
+    ```
 
 ---
 

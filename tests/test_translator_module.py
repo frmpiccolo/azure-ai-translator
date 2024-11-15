@@ -21,8 +21,8 @@ class TestTranslatorModule(unittest.TestCase):
             self.fail("test_translate_text raised an exception unexpectedly!")
 
     def test_translate_word_document(self):
-        input_file = "sample.docx"
-        output_file = "sample_translated.docx"
+        input_file = "resources/sample.docx"
+        output_file = "resources/sample_translated.docx"
         try:
             translate_word_document(input_file, output_file)
             self.assertTrue(True)  # Se não houver exceção, o teste passa

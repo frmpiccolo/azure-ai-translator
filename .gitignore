@@ -1,16 +1,16 @@
-# Ambiente e variáveis de ambiente
+# Environment and environment variables
 .env
 *.env
 
-# Python byte-compiled / otimizados / DLLs
+# Python byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Extensões C
+# C extensions
 *.so
 
-# Distribuição / empacotamento
+# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -30,11 +30,11 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Logs de instalação
+# Installation logs
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Relatórios de teste / cobertura
+# Unit test / coverage reports
 htmlcov/
 .tox/
 .nox/
@@ -49,17 +49,17 @@ coverage.xml
 .pytest_cache/
 cover/
 
-# Traduções
+# Translations
 *.mo
 *.pot
 
-# Arquivos específicos do Django
+# Django specific files
 *.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
-# Cache e arquivos temporários de outros frameworks
+# Cache and temporary files from other frameworks
 instance/
 .webassets-cache
 .scrapy
@@ -69,7 +69,7 @@ target/
 profile_default/
 ipython_config.py
 
-# Configurações de ambientes virtuais
+# Virtual environment configurations
 .venv
 env/
 venv/
@@ -77,7 +77,7 @@ ENV/
 env.bak/
 venv.bak/
 
-# Arquivos específicos do Spyder, Rope, mypy, pyre, pytype
+# Files specific to Spyder, Rope, mypy, pyre, pytype
 .spyderproject
 .spyderworkspace
 .ropeproject
@@ -87,13 +87,13 @@ dmypy.json
 .pyre/
 .pytype/
 
-# Depuração Cython
+# Cython debug files
 cython_debug/
 
-# Configurações do editor
+# Editor settings
 .vscode/
 
-# Arquivos gerados pelo sistema operacional
+# OS-generated files
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -101,14 +101,13 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# Arquivos temporários
+# Temporary files
 *.tmp
 *.bak
 
-# Frontend (se aplicável)
+# Frontend (if applicable)
 node_modules/
 dist/
 
-# Arquivos específicos de amostra e de tradução
+# Sample and translation-specific files
 sample_translated.docx
-modules/__pycache__/__init__.cpython-313.pyc
