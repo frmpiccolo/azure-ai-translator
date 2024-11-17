@@ -100,14 +100,10 @@ This project demonstrates the integration of Azure OpenAI services into a Python
 
 ## Running the Program
 
-1. **Run the Script**:
+**Run the Script**:
     ```bash
     python main.py
     ```
-
-2. **Input Text**:
-    - The program will prompt you to enter the text you want to translate.
-    - Enter the text, and the script will send it to the Azure OpenAI service for translation.
 
 ---
 
