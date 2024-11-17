@@ -101,6 +101,7 @@ This project demonstrates the integration of Azure OpenAI services into a Python
 ## Running the Program
 
 **Run the Script**:
+
     ```bash
     python main.py
     ```
